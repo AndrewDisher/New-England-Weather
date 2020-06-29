@@ -1,7 +1,6 @@
 
 #
 # Andrew Disher
-# 4/5/2020
 # Summer ATP Project
 # Massachusetts ARIMA Model for Average Temperature
 #
