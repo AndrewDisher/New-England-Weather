@@ -1,6 +1,7 @@
 
 #
 # Andrew Disher
+# 4/8/2020
 # Summer ATP Project
 # Massachusetts ARIMA Model for Precipitation
 #
@@ -153,7 +154,7 @@ abline(h = .05, col = 'red')
 
 # Model Forecasting and Evaluation ----------------------------------------
 
-# Obtain daily forecasts.   
+# Obtain daily forecasts.    
 MA_PRCP_Forecasts <- as.array(forecast(MA_PRCP_fit, lambda = 0, biasadj = FALSE, h = 12,level = 95))
 MA_PRCP_Forecasts
 
